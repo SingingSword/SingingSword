@@ -17,7 +17,8 @@ list: ## -- list all the targets in this file with a description
 
 clean: ## -- empty the output directory
 	@echo "Cleaning the public directory"
-	@if [ -d SingingSword/public ]; then rm -rf SingingSword/public; mkdir -p SingingSword/public; else mkdir -p SingingSword/public; fi
+	@if [ -d docs ]; then rm -rf docs; mkdir docs; else mkdir docs; fi
+	@if [ -d SingingSword/public ]; then rm -rf SingingSword/public; ln -s ../docs SingingSword/public; fi
 .PHONY: clean
 
 generate: ## -- generate the site locally
@@ -31,5 +32,5 @@ serve: ## -- serve the site locally
 .PHONY: serve
 
 publish: ## -- publish to the website
-	@mv SingingSword/public/* docs/
+	@now=`date +"%Y-%m-%d %H:%M:%S"`; git add .; git commit -m "issue ${now}"
  
