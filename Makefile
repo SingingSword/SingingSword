@@ -32,5 +32,5 @@ serve: ## -- serve the site locally
 .PHONY: serve
 
 publish: ## -- publish to the website
-	@now=`date +"%Y-%m-%d %H:%M:%S"`; git add .; git commit -m "issue ${now}"
+	@now=`date +"%Y-%m-%d %H:%M:%S"`; git add .; git commit -m "issue ${now}"; git push -u origin main
  
