@@ -9,6 +9,12 @@ This site is built using [Hugo](https://gohugo.io/getting-started/quick-start/).
 ```
 git clone git@github.com:SingingSword/SingingSword.git
 git submodule init -- SingingSword/themes/ananke/
+- or - 
+git submodule init -- SingingSword/themes/m10c/
+- or -
+git submodule init -- SingingSword/themes/hugo-theme-console/
+- or -
+git submodule init -- SingingSword/themes/story
 git submodule update --remote --recursive
 ```
 
