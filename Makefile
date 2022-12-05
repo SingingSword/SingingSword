@@ -10,6 +10,9 @@ endif
 .DEFAUL_GOAL := list
 .PHONY: list
 
+# Vars
+NOW := $(shell date +"%Y-%m-%d %H:%M:%S")
+
 # Targets
 list: ## -- list all the targets in this file with a description
 	@ grep -E '^[a-zA-Z0-9_-]+:.*?## .*$$' Makefile \
@@ -32,5 +35,5 @@ serve: ## -- serve the site locally
 .PHONY: serve
 
 publish: ## -- publish to the website
-	@ now=`date +"%Y-%m-%d %H:%M:%S"`; git add .; git commit -m "issue ${now}"; git push -u origin main
+	@ git add .; git commit -m "issue $(now)"; git push -u origin main
  
