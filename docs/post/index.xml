@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Hopefully good ideas</title>
+    <link>https://singingsword.github.io/SingingSword/post/</link>
+    <description>Recent content in Posts on Hopefully good ideas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Nov 2022 22:17:02 +0100</lastBuildDate><atom:link href="https://singingsword.github.io/SingingSword/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>https://singingsword.github.io/SingingSword/post/hello-world/</link>
+      <pubDate>Sun, 13 Nov 2022 22:17:02 +0100</pubDate>
+      
+      <guid>https://singingsword.github.io/SingingSword/post/hello-world/</guid>
+      <description>Hello Hi all, this is just me saying hello!
+Ciao, Enrico</description>
+    </item>
+    
+  </channel>
+</rss>

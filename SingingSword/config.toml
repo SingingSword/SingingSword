@@ -1,5 +1,5 @@
 baseURL = 'https://singingsword.github.io/SingingSword/'
 languageCode = 'en-us'
 title = 'Hopefully good ideas'
-theme = 'story'
+theme = 'ananke'
 

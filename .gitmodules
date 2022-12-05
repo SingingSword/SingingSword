@@ -7,6 +7,3 @@
 [submodule "SingingSword/themes/hugo-theme-console"]
 	path = SingingSword/themes/hugo-theme-console
 	url = https://github.com/mrmierzejewski/hugo-theme-console.git
-[submodule "SingingSword/themes/story"]
-	path = SingingSword/themes/story
-	url = https://github.com/xaprb/story.git
