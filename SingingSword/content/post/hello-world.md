@@ -6,7 +6,7 @@ draft: false
 
 ## Hello
 Hi all, this is just me saying hello!
-And also to see if everything works...
+And also to see if everything works... hopefully.
 
 Ciao,
 Enrico
