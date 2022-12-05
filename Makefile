@@ -35,5 +35,5 @@ serve: ## -- serve the site locally
 .PHONY: serve
 
 publish: ## -- publish to the website
-	@ git add .; git commit -m "issue $(now)"; git push -u origin main
+	@ git add .; git commit -m "issue $(NOW)"; git push -u origin main
  
