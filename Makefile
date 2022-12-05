@@ -34,6 +34,6 @@ serve: ## -- serve the site locally
 	@ cd SingingSword && hugo serve -D
 .PHONY: serve
 
-publish: ## -- publish to the website
+publish: generate ## -- publish to the website
 	@ git add .; git commit -m "issue $(NOW)"; git push -u origin main
  
